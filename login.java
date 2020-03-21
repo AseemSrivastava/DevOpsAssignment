@@ -9,8 +9,8 @@ public class login {
 		ChromeDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://localhost/Facebook-Project/");
-		driver.findElement(By.id("email")).sendKeys("ashish.bhusal.16999@gmail.com");
-		driver.findElement(By.id("password")).sendKeys("test1234!");
+		driver.findElement(By.id("email")).sendKeys("aseemsrivastava9@gmail.com");
+		driver.findElement(By.id("password")).sendKeys("aseem1234");
 		driver.findElement(By.id("login")).click();
 
 	}
